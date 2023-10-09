@@ -1,0 +1,49 @@
+@model List<PropertyRelatorioModel>
+
+<div class="text-center">
+    <h3>Relatório da Manutenção</h3>
+</div>
+
+@foreach (PropertyRelatorioModel property in Model)//PUXANDO A LIST DE MODEL
+{
+    @if(property.PecasNome == "empty" | property.Veiculo == "null")
+    {
+            <h3>Ainda não foi cadastrado nenhuma peça !</h3>
+    }
+    else
+    {
+        <div class="card">
+            <div class="card-body">
+                <h4>Veículo @property.Veiculo</h4>
+                @if(property.Km < property.PecasSubstituicao)
+                {
+                    <h3>O Km foi digitado errado, O km atual do veículo não</h3>
+                    <h3>pode ser menor que o km de substituição da peça @property.PecasNome !</h3>
+                }
+                else
+                {
+                    if (property.Km >= property.PecasDurabilidade)
+                    {
+                        if (property.SomaE_F >= property.Km)
+                        {
+                            <p>@property.PecasNome está em dia !</p>
+                            <p>Foi colocado com @property.PecasSubstituicao Km .</p>
+                            <p>Próxima substituição será com @property.SomaE_F Km .</p>
+                            <p>Falta @(property.SubtraiG_B1) Km para a substituição .</p>
+                        }
+                        else
+                        {
+                            <p>A substituição do @property.PecasNome está atrasado @(property.SubtraiG_B1) km !</p>
+                        }
+                    }
+                    else
+                    {
+                        <p>@property.PecasNome em dia !</p>
+                        <p>Primeira substituição será com @property.PecasDurabilidade Km .</p>
+                        <p>Falta @(property.SubtraiE_B1) km para fazer substituição .</p>
+                    }
+                } 
+            </div>
+        </div>
+    }  
+}

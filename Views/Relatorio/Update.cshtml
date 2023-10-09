@@ -1,0 +1,37 @@
+@model PropertyRelatorioModel
+
+<div class="row 12">
+    <div class="col-12">
+        <h2> Editar informações </h2>
+        <form method="POST" asp-action = "Update">
+            <input type="hidden" asp-for="IdRelatorio">
+            <div class="card">
+                <div class="card-body">
+                    <div  class="form-row">
+                    <label class="col-sm-3 col-form-label">Modelo do Veículo</label>
+                    <input asp-for="Veiculo" required class="col-4">
+                    </div>
+                    <div  class="form-row">
+                        <label class="col-sm-3 col-form-label">Nome da Peça</label>
+                        <input asp-for="PecasNome" required class="col-4">
+                    </div>
+                    <div  class="form-row">
+                        <label class="col-sm-3 col-form-label">Km de durabilidade da peça</label>
+                        <input asp-for="PecasDurabilidade" required class="col-4">
+                    </div>
+                    <div  class="form-row">
+                        <label class="col-sm-3 col-form-label">Km em que a peça foi substituida</label>
+                        <input asp-for="PecasSubstituicao" class="col-4">
+                    </div>
+                    <div  class="form-row">
+                        <label class="col-sm-3 col-form-label">Data em que a peça foi substituida</label>
+                        <input asp-for="DataAtual" type="date" class="col-4">
+                    </div>
+                    <div>
+                    <input type="submit" value="Editar">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+﻿@model PropertyRelatorioModel
+
+<div>
+    <h2>Relatório</h2>
+</div>
+<div class="card">
+    <div class="card-body">
+        <form method="POST" asp-action="Index">
+            <div>
+                <h5>Digite a quilômetragem atual do veículo</h5>
+                <input asp-for="Km" required>
+                <input type="submit" value="Consultar">
+            </div>
+        </form>
+        <div>
+            <img src="~/images/imagemcarro.png" class="img-fluid col-6 borda">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,65 @@
+@model List<PropertyRelatorioModel>
+
+<div>
+    <h2>Cadastros de peças</h2>
+</div>
+<button type="button" class="btn btn-outline-primary"><a href="/Relatorio/Create">Cadastrar peça</a></button>
+<div class="card">
+    <div class="card-body">
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th scope="col">Veículo</th>
+                    <th scope="col">Peça</th>
+                    <th scope="col">Km durabilidade</th>
+                    <th scope="col">Km substituição</th>
+                    <th scope="col">Data substituição</th>
+                    <th scope="col">Editar/Excluir</th>
+                </tr>
+            </thead>
+        
+            @foreach (PropertyRelatorioModel property in Model)
+            {  
+                @if (property.PecasNome == "empty")
+                {
+                    <h3>Ainda não foi cadastrado nenhuma peça !</h3>
+                }
+                else
+                {
+                    @if (property.PecasNome != "null")
+                    {
+                        <tr>
+                            <td>@property.Veiculo</td>
+                            <td>@property.PecasNome</td>
+                            <td>@property.PecasDurabilidade</td>
+                            <td>@if(property.PecasSubstituicao == 0)
+                                {
+                                    <p>Não cadastrado !</p>
+                                }
+                                else
+                                {
+                                    @property.PecasSubstituicao
+                                }
+                            </td>
+                            <td>@if(property.DataAtual == "")
+                                {
+                                    <p>Não cadastrado !</p>
+                                }
+                                else
+                                {
+                                    @property.DataAtual
+                                }
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary"><a
+                                href="/Relatorio/Update?Id=@property.IdRelatorio">Editar</a></button>
+                                <button type="button" class="btn btn-outline-primary"><a
+                                href="/Relatorio/Delete?Id=@property.IdRelatorio">Excluir</a></button>
+                            </td>
+                        </tr>  
+                    }
+                }
+            }
+        </table>
+    </div>
+</div>

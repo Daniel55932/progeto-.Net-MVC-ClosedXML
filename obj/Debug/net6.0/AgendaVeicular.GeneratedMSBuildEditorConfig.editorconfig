@@ -1,0 +1,84 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AgendaVeicular
+build_property.RootNamespace = AgendaVeicular
+build_property.ProjectDir = /home/daniel/MeusProgramas/Mvc/AgendaVeicular/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/daniel/MeusProgramas/Mvc/AgendaVeicular
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Anotacao/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5vdGFjYW8vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Anotacao/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5vdGFjYW8vUmVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Anotacao/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5vdGFjYW8vVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Relatorio/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVsYXRvcmlvL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Relatorio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVsYXRvcmlvL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Relatorio/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVsYXRvcmlvL1ByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Relatorio/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVsYXRvcmlvL1JlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Relatorio/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVsYXRvcmlvL1VwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Sugestoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VnZXN0b2VzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Sugestoes/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VnZXN0b2VzL1JlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/daniel/MeusProgramas/Mvc/AgendaVeicular/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eh4bfd371t
